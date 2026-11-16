@@ -15,7 +15,6 @@ const soma = (a,b)  =>{
 console.log(soma(2,2))
 
 const desconto = (numero) =>{
-let desconto1=numero/10
-return numero-desconto1
+return numero*0.9
 }
 console.log(desconto(100))
